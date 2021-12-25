@@ -1,0 +1,160 @@
+    /*                                               SCROLLBAR                          */
+	::-webkit-scrollbar {
+		width: 6px;
+	  }
+	  
+	  
+	  ::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px rgb(26, 194, 160); 
+		margin-top: 25px;
+		margin-bottom: 25px;
+		border-radius: 10px;
+		
+	  }
+	   
+	  ::-webkit-scrollbar-thumb {
+		background: rgb(26, 194, 160); 
+		border-radius: 10px;
+	  }
+	
+	  /*                                                           Card CSS                                        */
+	.wrapper {
+		
+		height: 420px;
+		width: 880px;
+		margin: 60px auto;
+		margin-bottom: 0px;
+		border-radius: 7px 7px 7px 7px;
+		-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+		box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+	  }
+	
+	
+	  /*                                                               Left image css                             */
+	  
+	  .product-img {
+		float: left;
+		height: 420px;
+		width: 380px;
+	  }
+	
+	
+	  /*                                                           Right Card Detail CSS                            */
+	  
+	  .product-img img {
+		border-radius: 7px 0 0 7px;
+	  }
+	
+	  .inline-div .name{
+		  color:  rgb(26, 194, 160);
+		  text-transform: uppercase;
+	  }
+	  
+	  
+	  .product-info {
+		float: left;
+		padding: 25px;
+		height: 420px;
+		width: 500px;
+		border-radius: 0 7px 10px 7px;
+		background-color: #ffffff;
+		overflow: auto;
+	  }
+	  
+	  .inline-div {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	  }
+	  
+	  .inline-div h3,
+	  h4 {
+		display: inline-block;
+		text-align: center;
+	  }
+	  
+	  .inline-div h4 {
+		text-transform: capitalize;
+		font-size: x-small;
+		margin-left: 8px;	  
+		padding-left: 4px;
+		border-left: solid lightgray 2px;
+	  }
+	
+	
+	  .inline-div .exprs{
+		background-color:  rgb(26, 194, 160);
+		padding:4px 10px 5px 10px;
+		font-size: 10px;
+		border-radius: 4px;
+		color: whitesmoke;
+		text-transform: capitalize;
+	}
+	
+	  
+	  
+	  
+	  .product-text h3 {
+		
+		padding-top: 10px;
+		
+	  }
+	  
+	  
+	  
+	  .product-text h3 {
+		margin: 0px 0px 0px 30px;
+		font-size: 14px;
+		font-family: "Raleway", sans-serif;
+		font-weight: 5 00;
+		text-transform: capitalize;
+		color: #1f1c1c;
+		letter-spacing: 5pxm;
+	  }
+	  
+	  .product-text p ,h5{
+		margin: 0 0 0 58px;
+		font-family: "Playfair Display", serif;
+		color: black;
+		line-height: 1.8em;
+		font-size: 13px;
+		margin-bottom: 5px;
+		overflow: hidden;
+	  }
+	  
+	   .education h3 {
+		   text-transform: uppercase;
+		   font-size: 13px;
+		color:  rgb(26, 194, 160);
+	  } 
+	  
+	  
+	  .inline-div .location {
+		color: rgb(26, 194, 160);
+	  }
+	  
+	  
+	  .icons {
+		color: rgb(26, 194, 160);
+		vertical-align: middle;
+		font-Size: 15px;
+		margin-right: 5px;
+	
+	  }
+	  .brand_logo {
+		width: 35px;
+		height: 35px;
+		margin-left: 10px;
+	  }
+	  .experience {
+		display: flex;
+		flex-direction: row;
+	  }
+	   
+	  .experience_details {
+		margin-left: -40px;
+	  }
+	
+	 
+	  

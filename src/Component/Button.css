@@ -1,0 +1,28 @@
+.share-button{
+	font-size: 12px;
+  word-spacing: 20px;
+  border-radius: 4px;
+  width: 90px;
+  height: 35px;
+  vertical-align: middle;
+  margin-top: -20px;
+  margin-left: 50%;
+  color: rgb(26, 194, 160);
+  border: 1px solid rgb(26, 194, 160);
+  background-color: white;  z-index: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.share-icon{
+	font-size: 12px;
+            vertical-align: middle;
+            margin-bottom: 3px;
+            margin-right: 3px;
+            
+}
+
+.share-button:hover{
+  color: white;
+  background-color: rgb(20, 150, 123);
+}
